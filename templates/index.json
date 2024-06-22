@@ -1,8 +1,76 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
-    "sections": {
-        "main":{
-            "type": "tab-product-list"
+  "sections": {
+    "main": {
+      "type": "tab-product-list",
+      "blocks": {
+        "tab_list_wHQ8Nj": {
+          "type": "tab-list",
+          "settings": {
+            "tab_heading": "BestSeller",
+            "product_list": [
+              "black-leather-bag",
+              "blue-silk-tuxedo",
+              "chequered-red-shirt",
+              "classic-leather-jacket"
+            ]
+          }
+        },
+        "tab_list_dPknzh": {
+          "type": "tab-list",
+          "settings": {
+            "tab_heading": "New Launch",
+            "product_list": [
+              "dark-denim-top",
+              "floral-white-top",
+              "led-high-tops",
+              "longsleeve-cotton-top"
+            ]
+          }
+        },
+        "tab_list_eBzxC7": {
+          "type": "tab-list",
+          "settings": {
+            "tab_heading": "Summer Sale",
+            "product_list": [
+              "striped-silk-blouse",
+              "striped-skirt-and-top",
+              "white-cotton-shirt",
+              "yellow-wool-jumper"
+            ]
+          }
+        },
+        "tab_list_tndVyX": {
+          "type": "tab-list",
+          "settings": {
+            "tab_heading": "Gift",
+            "product_list": [
+              "zipped-jacket"
+            ]
+          }
         }
-    },
-    "order": ["main"]
+      },
+      "block_order": [
+        "tab_list_wHQ8Nj",
+        "tab_list_dPknzh",
+        "tab_list_eBzxC7",
+        "tab_list_tndVyX"
+      ],
+      "settings": {
+        "padding-top": 30,
+        "padding-bottom": 30
+      }
+    }
+  },
+  "order": [
+    "main"
+  ]
 }
