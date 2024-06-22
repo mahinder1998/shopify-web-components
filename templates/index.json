@@ -1,0 +1,8 @@
+{
+    "sections": {
+        "main":{
+            "type": "tab-product-list"
+        }
+    },
+    "order": ["main"]
+}

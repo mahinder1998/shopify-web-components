@@ -1,0 +1,128 @@
+<style>
+    .tab-data-items{
+        display: none;
+    }
+    .tab-data-items.active{
+        display: grid;
+    }
+    .tab-item.active{
+        background-color: rgb(234 88 12 / var(--tw-bg-opacity));
+        border-color: rgb(234 88 12 / var(--tw-bg-opacity));
+    }
+</style>
+
+
+
+<section style="padding-top: {{section.settings.padding-top}}px; 
+padding-bottom: {{section.settings.padding-bottom}}px;
+">
+    <!-- container -->
+    <div class="px-4 md:px-0 container mx-auto">
+        <!-- row  -->
+         <div class="flex flex-col space-y-10">
+            <div class="grid grid-cols-2 gap-4 md:grid-cols-4">
+            {% for block in section.blocks %}
+                <!-- tab -->
+                    <a href="#" data-tab="tab-{{forloop.index}}" class="{%if forloop.first%} active {% endif %}  tab-item border border-gray-700 inline-block py-2 px-4
+                    rounded-sm cursor-pointer bg-gray-700 text-white hover:bg-orange-600
+                    hover:border-orange-600
+                    transition-[bg,border] duration-[0.3s]
+                    ">
+                    {{block.settings.tab_heading}}
+                    </a>
+            {% endfor %}
+            </div>
+
+
+            <!-- tab data -->
+             <div class="tab-data
+             ">
+                {% for block in section.blocks %}
+                    <div data-tab="tab-{{forloop.index}}"  class="{%if forloop.first%} active {% endif %}   tab-data-items grid  md:grid-cols-2 lg:grid-cols-4 gap-4">
+                     <!-- product card -->
+                      {% for product in block.settings.product_list %}
+                        <div class="shadow-lg rounded-lg">
+                        {% render 'productcard' product:product %}
+                        </div>
+                     {% endfor %}
+                     </div>
+                {% endfor %}
+            </div>
+
+         </div>
+    </div>
+
+</section>
+
+
+<script>
+    document.addEventListener("DOMContentLoaded", ()=>{
+        const tabItem = document.querySelectorAll(".tab-item");
+        tabItem.forEach(function (item) {
+            item.addEventListener("click", () => {
+                const dataId = item.dataset.tab;
+                tabItem.forEach(function (anoItem) {
+                    anoItem.classList.remove("active");
+                });
+                item.classList.add("active");
+    
+                // Tab body
+                const tabDataItem = document.querySelectorAll(".tab-data-items");
+                tabDataItem.forEach(function (dataItem) {
+                    const dataItemId = dataItem.dataset.tab;
+                    if (dataId === dataItemId) {
+                        dataItem.classList.add("active");
+                    } else {
+                        dataItem.classList.remove("active");
+                    }
+                });
+            });
+        });
+    })
+</script>
+
+
+{% schema %}
+    {
+        "name": "Tab Product List",
+        "settings": [
+            {
+                "type": "number",
+                "id": "padding-top",
+                "label": "paddint top",
+                "default": 30
+            },
+            {
+                "type": "number",
+                "id": "padding-bottom",
+                "label": "paddint bottom",
+                "default": 30
+            }
+        ],
+        "blocks": [
+            {
+                "name": "Tab List",
+                "type": "tab-list",
+                "settings": [
+                    {
+                        "type": "text",
+                        "id": "tab_heading",
+                        "label": "Tab Heading",
+                        "default": "Tab 1"
+                    },
+                    {
+                        "type": "product_list",
+                        "id": "product_list",
+                        "label": "Select Product",
+                        "limit": 4
+                    }
+                ]
+            }
+        ],
+        "presets": [
+            {
+                "name": "Tab Product List"
+            }
+        ]
+    }
+{% endschema %}

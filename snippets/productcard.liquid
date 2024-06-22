@@ -1,0 +1,17 @@
+<div class="product-card">
+    <div class="img-col overflow-hidden 
+        
+    ">
+        <img src="{{product.featured_image |  img_url: 'medium'}}" alt=""  class="w-full"
+        >
+    </div>
+    <div class="product-info p-4 space-y-3">
+        <h2 class="text-lg font-bold">{{product.title}}</h2>
+        <p>{{product.price |  money_without_trailing_zeros}}</p>
+        <a href="{{product.url}}" class="inline-block py-2 px-4 bg-slate-400 rounded-sm
+        text-white
+        font-bold
+        hover:bg-black
+        ">Add to cart</a>
+    </div>
+</div>
