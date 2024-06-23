@@ -1,0 +1,711 @@
+
+{{'header.css' |  asset_url |  stylesheet_tag}}
+
+<!-- header -->
+   <header class="header-wrap fixed z-10 bg-transparent w-full px-10 py-5
+   transition-[transform]
+   duration-200
+">
+   <!-- wrap -->
+   <div class="flex justify-between">
+       <!-- left col -->
+       <div class="left-col flex-col lg:space-y-5">
+               <!-- flag -->
+               <div class=" hidden lg:flex country-selector  items-center space-x-2 ">
+                   <svg width="24" height="16" viewBox="0 0 24 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                       <g clip-path="url(#clip0_223_2616)">
+                       <path d="M0 0H24V16H0V0Z" fill="white"></path>
+                       <path d="M0 0H24V5.33333H0V0Z" fill="#009E49"></path>
+                       <path d="M0 10.6667H24V16H0V10.6667Z" fill="black"></path>
+                       <path d="M0 0H8V16H0V0Z" fill="#CE1126"></path>
+                       </g>
+                       <defs>
+                       <clipPath id="clip0_223_2616">
+                       <rect width="24" height="16" fill="white"></rect>
+                       </clipPath>
+                       </defs>
+                   </svg>
+                   <span class="text-white">UAE | AR</span>
+               </div>
+
+               <!-- navigation -->
+               <nav class=" hidden lg:flex
+               ">
+                   <ul class="flex space-x-6">
+                       <li class="menu-list">
+                           <span class="menu-toggle text-white font-bold uppercase
+                               cursor-pointer
+                           ">Spring 24</span>
+                           <!-- Dropdpown menu -->
+                           <div class="dropdown-menu absolute bg-white
+                               w-full
+                               left-0
+                               top-full
+                               
+                               transition-all
+                               duration-200
+                               scale-y-0
+                           ">
+                               <!-- conatiner -->
+                               <div class="dropdown-menu-container
+                                   p-10
+                               ">
+                                   <ul class="text-black
+                                       flex
+                                       space-x-32
+                                   ">
+                                       <li>
+                                           <a href="#" class="uppercase font-bold">Women</a>
+                                       </li>
+                                       <li>
+                                           <a href="#" class="uppercase font-bold">Men</a>
+                                       </li>
+                                   </ul>
+                               </div>
+                           </div>
+
+                       </li>
+                       <li class="menu-list">
+                           <span class="menu-toggle text-white font-bold uppercase
+                               cursor-pointer
+                           ">Women</span>
+                           <!-- Dropdpown menu -->
+                           <div class="dropdown-menu absolute bg-white
+                               w-full
+                               left-0
+                               top-full
+                               transition-[scale]
+                               duration-500
+                               scale-y-0
+                           ">
+                               <!-- conatiner -->
+                               <div class="dropdown-menu-container
+                                   p-10
+                               ">
+                                   <ul class="text-black
+                                       flex
+                                       space-x-32
+                                   ">
+                                       <li>
+                                           <a href="#" class="uppercase font-bold">BAGS</a>
+                                           <ul><li class="">
+                                               <a href="/collections/new-arrivals-bags" class="text-[14px] text-black dynamic-fontstyle font-[325] py-[3px]">New arrivals</a>
+                                           </li><li class="">
+                                               <a href="/collections/women-bags-all" class="text-[14px] text-black dynamic-fontstyle font-[325] py-[3px]">All Bags</a>
+                                           </li><li class="">
+                                               <a href="/collections/women-bags-totes-shopper" class="text-[14px] text-black dynamic-fontstyle font-[325] py-[3px]">Totes &amp; Shopper bags</a>
+                                           </li><li class="">
+                                               <a href="/collections/women-bags-mini-bags" class="text-[14px] text-black dynamic-fontstyle font-[325] py-[3px]">Mini Bags</a>
+                                           </li><li class="">
+                                               <a href="/collections/women-bags-shoulder-bags" class="text-[14px] text-black dynamic-fontstyle font-[325] py-[3px]">Shoulder Bags</a>
+                                           </li><li class="">
+                                               <a href="/collections/women-bags-crossbody" class="text-[14px] text-black dynamic-fontstyle font-[325] py-[3px]">Crossbody bags</a>
+                                           </li></ul>
+                                       </li>
+                                       <li>
+                                           <a href="#" class="uppercase font-bold">CLOTHING</a>
+                                           <ul><li class="">
+                                               <a href="/collections/women-clothes-new-arrivals" class="text-[14px] text-black dynamic-fontstyle font-[325] py-[3px]">New Arrivals</a>
+                                           </li><li class="">
+                                               <a href="/collections/women-clothing-all" class="text-[14px] text-black dynamic-fontstyle font-[325] py-[3px]">All Clothing</a>
+                                           </li><li class="">
+                                               <a href="/collections/women-clothing-dresses" class="text-[14px] text-black dynamic-fontstyle font-[325] py-[3px]">Dresses &amp; Jumpsuits</a>
+                                           </li><li class="">
+                                               <a href="/collections/women-clothing-t-shirts" class="text-[14px] text-black dynamic-fontstyle font-[325] py-[3px]">T-Shirts</a>
+                                           </li><li class="">
+                                               <a href="/collections/women-clothing-blouses" class="text-[14px] text-black dynamic-fontstyle font-[325] py-[3px]">Shirts &amp; Blouses</a>
+                                           </li><li class="">
+                                               <a href="/collections/womens-clothing-bottoms" class="text-[14px] text-black dynamic-fontstyle font-[325] py-[3px]">Skirts</a>
+                                           </li><li class="">
+                                               <a href="/collections/women-clothing-pants-jeans" class="text-[14px] text-black dynamic-fontstyle font-[325] py-[3px]">Pants &amp; Jeans</a>
+                                           </li><li class="">
+                                               <a href="/collections/women-clothing-loungewear-sleepwear" class="text-[14px] text-black dynamic-fontstyle font-[325] py-[3px]">Loungewear &amp; Sleepwear</a>
+                                           </li></ul>
+                                       </li>
+                                       <li>
+                                           <a href="#" class="uppercase font-bold">ACCESSORIES</a>
+                                           <ul><li class="">
+                                               <a href="/collections/women-accessories-all" class="text-[14px] text-black dynamic-fontstyle font-[325] py-[3px]">All Accessories</a>
+                                           </li><li class="">
+                                               <a href="/collections/women-accessories-wallets-card-cases" class="text-[14px] text-black dynamic-fontstyle font-[325] py-[3px]">Wallets &amp; Small Accessories</a>
+                                           </li><li class="">
+                                               <a href="/collections/women-accessories-jewelry" class="text-[14px] text-black dynamic-fontstyle font-[325] py-[3px]">Jewelry</a>
+                                           </li><li class="">
+                                               <a href="/collections/women-shoes-all" class="text-[14px] text-black dynamic-fontstyle font-[325] py-[3px]">Shoes</a>
+                                           </li><li class="">
+                                               <a href="/collections/women-accessories-hats-scarfs-gloves" class="text-[14px] text-black dynamic-fontstyle font-[325] py-[3px]">Hats, Scarves &amp; Gloves</a>
+                                           </li><li class="">
+                                               <a href="/collections/women-accessories-home-accessories" class="text-[14px] text-black dynamic-fontstyle font-[325] py-[3px]">Home Accessories</a>
+                                           </li></ul>
+                                       </li>
+                                   </ul>
+                               </div>
+                           </div>
+
+                       </li>
+                       <li class="menu-list">
+                           <span class="menu-toggle text-white font-bold uppercase
+                               cursor-pointer
+                           ">Men</span>
+                           <!-- Dropdpown menu -->
+                           <div class="dropdown-menu absolute bg-white
+                               w-full
+                               left-0
+                               top-full
+                               transition-[scale]
+                               duration-500
+                               scale-y-0
+                           ">
+                               <!-- conatiner -->
+                               <div class="dropdown-menu-container
+                                   p-10
+                               ">
+                                   <ul class="text-black
+                                       flex
+                                       space-x-32
+                                   ">
+                                       <li>
+                                           <a href="#" class="uppercase font-bold">CLOTHING</a>
+                                           <ul><li class="">
+                                               <a href="/collections/men-clothes-new-arrivals" class="text-[14px] text-black dynamic-fontstyle font-[325] py-[3px]">New Arrivals</a>
+                                           </li><li class="">
+                                               <a href="/collections/men-clothing" class="text-[14px] text-black dynamic-fontstyle font-[325] py-[3px]">All Clothing</a>
+                                           </li><li class="">
+                                               <a href="/collections/men-t-shirts" class="text-[14px] text-black dynamic-fontstyle font-[325] py-[3px]">T-Shirts</a>
+                                           </li><li class="">
+                                               <a href="/collections/men-shirts-sweaters" class="text-[14px] text-black dynamic-fontstyle font-[325] py-[3px]">Shirts &amp; Sweaters</a>
+                                           </li><li class="">
+                                               <a href="/collections/men-pants" class="text-[14px] text-black dynamic-fontstyle font-[325] py-[3px]">Pants &amp; Jeans</a>
+                                           </li><li class="">
+                                               <a href="/collections/men-jackets-coats" class="text-[14px] text-black dynamic-fontstyle font-[325] py-[3px]">Jackets &amp; Coats</a>
+                                           </li><li class="">
+                                               <a href="/collections/men-shorts-beachwear" class="text-[14px] text-black dynamic-fontstyle font-[325] py-[3px]">Shorts &amp; Beachwear</a>
+                                           </li><li class="">
+                                               <a href="/collections/men-loungewear-sleepwear" class="text-[14px] text-black dynamic-fontstyle font-[325] py-[3px]">Loungewear &amp; Sleepwear</a>
+                                           </li></ul>
+                                       </li>
+                                       <li>
+                                           <a href="#" class="uppercase font-bold">ACCESSORIES</a>
+                                           <ul><li class="">
+                                               <a href="/collections/men-all-accessories" class="text-[14px] text-black dynamic-fontstyle font-[325] py-[3px]">All Accessories</a>
+                                           </li><li class="">
+                                               <a href="/collections/men-accessories-bags" class="text-[14px] text-black dynamic-fontstyle font-[325] py-[3px]">Bags</a>
+                                           </li><li class="">
+                                               <a href="/collections/men-shoes" class="text-[14px] text-black dynamic-fontstyle font-[325] py-[3px]">Shoes</a>
+                                           </li><li class="">
+                                               <a href="/collections/men-accessories-wallets-small-accessories" class="text-[14px] text-black dynamic-fontstyle font-[325] py-[3px]">Wallets &amp; Small Accessories</a>
+                                           </li><li class="">
+                                               <a href="/collections/men-accessories-hats-gloves-scarfs" class="text-[14px] text-black dynamic-fontstyle font-[325] py-[3px]">Hats, Gloves &amp; Scarfs</a>
+                                           </li><li class="">
+                                               <a href="/collections/men-accessories-home" class="text-[14px] text-black dynamic-fontstyle font-[325] py-[3px]">Home Accessories</a>
+                                           </li></ul>
+                                       </li>
+                                       
+                                   </ul>
+                               </div>
+                           </div>
+
+                       </li>
+
+                       <li class="">
+                           <span class="menu-toggle font-bold uppercase
+                               cursor-pointer text-red-800
+                           "><a href="#">Sale</a></span>
+                           </li>
+                      
+
+                   </ul>
+               </nav>
+
+
+               <!-- navigation mobile -->
+               <mobile-drawer class="bg-white fixed top-0 left-[-100%] h-screen w-full sm:w-1/2 p-5
+               transition-[left] duration-[0.4s]
+               ">
+                   <!-- close btn -->
+                   <div class="menu-close cursor-pointer  py-3">
+                       <svg width="12" height="11" viewBox="0 0 12 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                           <path d="M12 0.5L7.84344 5.45906L4.28571 5.4529L8.32031 0.5H12Z" fill="black"></path>
+                           <path d="M12 10.5L7.80375 5.45295L4.28571 5.4529L8.32031 10.5L12 10.5Z" fill="black"></path>
+                           <path d="M0 10.5L4.15656 5.54094L7.71428 5.5471L3.67969 10.5L0 10.5Z" fill="black"></path>
+                           <path d="M1.65661e-06 0.5L4.19625 5.54705L7.71428 5.5471L3.67969 0.5L1.65661e-06 0.5Z" fill="black"></path>
+                           </svg>
+                   </div>
+
+                   <!-- mobile menu start -->
+                   <nav class="py-10">
+                       <ul class="parent-wrap space-y-3">
+                           <li class="parent">
+                               <div class="menu-text
+                               menu-toggle
+                               flex justify-between
+                               items-center
+                               " data-submenu-open>
+                                   <span class="text-lg font-bold">SPRING '24</span>
+                                   <div class="right-icon">
+                                       <svg width="8" height="11" viewBox="0 0 8 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                       <path d="M0 0.5L4.31051 5.45906L8 5.4529L3.81597 0.5L0 0.5Z" fill="black" style=""></path>
+                                       <path d="M7.85223e-07 10.5L4.35166 5.45295L8 5.4529L3.81597 10.5L7.85223e-07 10.5Z" fill="black" style=""></path>
+                                       </svg>
+                                   </div>
+                               </div>
+
+                               <!-- submenu  -->
+                               <div class="submenu fixed left-[-100%]
+                               w-full
+
+                               sm:w-1/2
+                                   h-screen
+                                   bg-white
+                                   top-[60px]
+                                   p-5
+                                   transition-[left] duration-[0.4s]
+                               ">
+                                   <div class="pt-6 mb-10 back-menu flex space-x-5 items-center">
+                                       <div class="left-icon">
+                                           <svg width="8" height="11" viewBox="0 0 8 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                           <path d="M8 10.5L3.68949 5.54094L1.38667e-06 5.5471L4.18403 10.5L8 10.5Z" fill="black" style=""></path>
+                                           <path d="M8 0.500002L3.64834 5.54705L1.38667e-06 5.5471L4.18403 0.500001L8 0.500002Z" fill="black" style=""></path>
+                                           </svg>
+                                       </div>
+                                       <span>SPRING '24</span>
+                                   </div>
+                                   <ul class="space-y-4">
+                                       <li>
+                                           <a href="#">Women</a>
+                                       </li>
+                                       <li>
+                                           <a href="#">Women</a>
+                                       </li>
+                                   </ul>
+                               </div>
+                           </li>
+
+
+                           <li class="parent">
+                               <div class="menu-text
+                               menu-toggle
+                               flex justify-between
+                               items-center
+                               " data-submenu-open>
+                                   <span class="text-lg font-bold">Women</span>
+                                   <div class="right-icon">
+                                       <svg width="8" height="11" viewBox="0 0 8 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                       <path d="M0 0.5L4.31051 5.45906L8 5.4529L3.81597 0.5L0 0.5Z" fill="black" style=""></path>
+                                       <path d="M7.85223e-07 10.5L4.35166 5.45295L8 5.4529L3.81597 10.5L7.85223e-07 10.5Z" fill="black" style=""></path>
+                                       </svg>
+                                   </div>
+                               </div>
+
+                               <!-- submenu  -->
+                               <div class="submenu fixed left-[-100%]
+                               w-full
+
+                               sm:w-1/2
+                                   h-screen
+                                   bg-white
+                                   top-[60px]
+                                   p-5
+                                   transition-[left] duration-[0.4s]
+                               ">
+                                   <div class="pt-6 mb-10 back-menu flex space-x-5 items-center">
+                                       <div class="left-icon">
+                                           <svg width="8" height="11" viewBox="0 0 8 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                           <path d="M8 10.5L3.68949 5.54094L1.38667e-06 5.5471L4.18403 10.5L8 10.5Z" fill="black" style=""></path>
+                                           <path d="M8 0.500002L3.64834 5.54705L1.38667e-06 5.5471L4.18403 0.500001L8 0.500002Z" fill="black" style=""></path>
+                                           </svg>
+                                       </div>
+                                       <span>Women</span>
+                                   </div>
+                                   <ul class="space-y-4">
+                                       <li>
+                                           <div class="menu-text
+                                           menu-toggle
+                                           flex justify-between
+                                           items-center
+                                           " data-submenu-open>
+                                               <span class="text-lg font-bold">Bag</span>
+                                               <div class="right-icon">
+                                                   <svg width="8" height="11" viewBox="0 0 8 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                   <path d="M0 0.5L4.31051 5.45906L8 5.4529L3.81597 0.5L0 0.5Z" fill="black" style=""></path>
+                                                   <path d="M7.85223e-07 10.5L4.35166 5.45295L8 5.4529L3.81597 10.5L7.85223e-07 10.5Z" fill="black" style=""></path>
+                                                   </svg>
+                                               </div>
+                                           </div>
+
+                                            <!-- submenu 3rd  -->
+                                            <div class="submenu
+                                            submenu fixed left-[-100%]
+                                            w-full
+
+                                            sm:w-1/2
+                                               h-screen
+                                               bg-white
+                                               top-[60px]
+                                               p-5
+                                               transition-[left] duration-[0.4s]
+                                            ">
+                                               <div class="pt-6 mb-10 back-menu flex space-x-5 items-center">
+                                                   <div class="left-icon">
+                                                       <svg width="8" height="11" viewBox="0 0 8 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                       <path d="M8 10.5L3.68949 5.54094L1.38667e-06 5.5471L4.18403 10.5L8 10.5Z" fill="black" style=""></path>
+                                                       <path d="M8 0.500002L3.64834 5.54705L1.38667e-06 5.5471L4.18403 0.500001L8 0.500002Z" fill="black" style=""></path>
+                                                       </svg>
+                                                   </div>
+                                                   <span>Bags</span>
+                                               </div>
+                                               <ul class="space-y-4">
+                                                   <li>
+                                                       <a href="#">Bag 1</a>
+                                                   </li>
+                                                   <li>
+                                                       <a href="#">Bag 2</a>
+                                                   </li>
+                                               </ul>
+                                           </div>
+                                          
+                                       </li>
+                                       <li>
+                                           <div class="menu-text
+                                           menu-toggle
+                                           flex justify-between
+                                           items-center
+                                           " data-submenu-open>
+                                               <span class="text-lg font-bold">Perfume</span>
+                                               <div class="right-icon">
+                                                   <svg width="8" height="11" viewBox="0 0 8 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                   <path d="M0 0.5L4.31051 5.45906L8 5.4529L3.81597 0.5L0 0.5Z" fill="black" style=""></path>
+                                                   <path d="M7.85223e-07 10.5L4.35166 5.45295L8 5.4529L3.81597 10.5L7.85223e-07 10.5Z" fill="black" style=""></path>
+                                                   </svg>
+                                               </div>
+                                           </div>
+
+                                            <!-- submenu 3rd  -->
+                                            <div class="submenu
+                                            submenu fixed left-[-100%]
+                                            w-full
+
+                                            sm:w-1/2
+                                               h-screen
+                                               bg-white
+                                               top-[60px]
+                                               p-5
+                                               transition-[left] duration-[0.4s]
+                                            ">
+                                               <div class="pt-6 mb-10 back-menu flex space-x-5 items-center">
+                                                   <div class="left-icon">
+                                                       <svg width="8" height="11" viewBox="0 0 8 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                       <path d="M8 10.5L3.68949 5.54094L1.38667e-06 5.5471L4.18403 10.5L8 10.5Z" fill="black" style=""></path>
+                                                       <path d="M8 0.500002L3.64834 5.54705L1.38667e-06 5.5471L4.18403 0.500001L8 0.500002Z" fill="black" style=""></path>
+                                                       </svg>
+                                                   </div>
+                                                   <span>Perfume</span>
+                                               </div>
+                                               <ul class="space-y-4">
+                                                   <li>
+                                                       <a href="#">Perfume 1</a>
+                                                   </li>
+                                                   <li>
+                                                       <a href="#">Perfume 2</a>
+                                                   </li>
+                                               </ul>
+                                           </div>
+                                          
+                                       </li>
+                                      
+                                   </ul>
+                               </div>
+                           </li>
+
+
+
+
+                       </ul>
+                   </nav>
+
+
+               </mobile-drawer>
+
+
+
+
+
+               <!-- mobile -->
+               <div class="header-icons mobile-icons lg:hidden">
+                   <ul class="flex space-x-4">
+                       <li class="mob-toggle " id="menu-toggle-mob">
+                           <div class="white-svg">
+                               <svg width="14" height="15" viewBox="0 0 14 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                   <g clip-path="url(#clip0_223_2258)">
+                                   <path d="M-4 1.5L17 1.5M-4 7.5L17 7.5M-4 13.5L17 13.5" stroke="white" stroke-width="2"></path>
+                                   </g>
+                                   <defs>
+                                   <clipPath id="clip0_223_2258">
+                                   <rect width="14" height="14" fill="white" transform="translate(0 0.5)"></rect>
+                                   </clipPath>
+                                   </defs>
+                                   </svg>
+                           </div>
+                           <div class="hidden black-svg">
+                               <svg width="14" height="15" viewBox="0 0 14 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                   <g clip-path="url(#clip0_223_2306)">
+                                   <path d="M-4 1.5L17 1.5M-4 7.5L17 7.5M-4 13.5L17 13.5" stroke="black" stroke-width="2"></path>
+                                   </g>
+                                   <defs>
+                                   <clipPath id="clip0_223_2306">
+                                   <rect width="14" height="14" fill="white" transform="translate(0 0.5)"></rect>
+                                   </clipPath>
+                                   </defs>
+                                   </svg>
+
+                           </div>
+                       </li>
+
+
+                       <li class="mob-toggle">
+                           <div class="white-svg">
+                               <svg width="14" height="15" viewBox="0 0 14 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                   <g clip-path="url(#clip0_223_2246)">
+                                   <path d="M8.57367 9.57329L12 13M9.53658 6.27942C9.53658 8.64288 7.6256 10.5588 5.26829 10.5588C2.91098 10.5588 1 8.64288 1 6.27942C1 3.91596 2.91098 2 5.26829 2C7.6256 2 9.53658 3.91596 9.53658 6.27942Z" stroke="white" stroke-width="2" stroke-linecap="square"></path>
+                                   </g>
+                                   <defs>
+                                   <clipPath id="clip0_223_2246">
+                                   <rect width="14" height="14" fill="white" transform="translate(0 0.5)"></rect>
+                                   </clipPath>
+                                   </defs>
+                                   </svg>
+                           </div>
+                           <div class="hidden black-svg">
+                               <svg width="14" height="15" viewBox="0 0 14 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                   <g clip-path="url(#clip0_223_2294)">
+                                   <path d="M8.57367 9.57329L12 13M9.53658 6.27942C9.53658 8.64288 7.6256 10.5588 5.26829 10.5588C2.91098 10.5588 1 8.64288 1 6.27942C1 3.91596 2.91098 2 5.26829 2C7.6256 2 9.53658 3.91596 9.53658 6.27942Z" stroke="black" stroke-width="2" stroke-linecap="square"></path>
+                                   </g>
+                                   <defs>
+                                   <clipPath id="clip0_223_2294">
+                                   <rect width="14" height="14" fill="white" transform="translate(0 0.5)"></rect>
+                                   </clipPath>
+                                   </defs>
+                                   </svg>
+
+                           </div>
+                       </li>
+
+                       <li class="mob-toggle">
+                           <div class="white-svg">
+                               <svg width="14" height="15" viewBox="0 0 14 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                   <g clip-path="url(#clip0_223_2238)">
+                                   <path fill-rule="evenodd" clip-rule="evenodd" d="M12 6.53271H2V12.5659H12V6.53271ZM0 4.52166V14.5769H14V4.52166H0Z" fill="white"></path>
+                                   <path fill-rule="evenodd" clip-rule="evenodd" d="M3.30769 4.83105C3.30769 2.66842 4.80397 0.576904 7 0.576904C9.19603 0.576904 10.6923 2.66842 10.6923 4.83105H8.69231C8.69231 3.4202 7.76551 2.58795 7 2.58795C6.23449 2.58795 5.30769 3.4202 5.30769 4.83105H3.30769Z" fill="white"></path>
+                                   </g>
+                                   <defs>
+                                   <clipPath id="clip0_223_2238">
+                                   <rect width="14" height="14" fill="white" transform="translate(0 0.5)"></rect>
+                                   </clipPath>
+                                   </defs>
+                                   </svg>
+                           </div>
+                           <div class="hidden black-svg">
+                               <svg width="14" height="15" viewBox="0 0 14 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                   <g clip-path="url(#clip0_223_2286)">
+                                   <path fill-rule="evenodd" clip-rule="evenodd" d="M12 6.53274H2V12.5659H12V6.53274ZM0 4.52169V14.5769H14V4.52169H0Z" fill="black"></path>
+                                   <path fill-rule="evenodd" clip-rule="evenodd" d="M3.30769 4.83108C3.30769 2.66845 4.80397 0.576935 7 0.576935C9.19603 0.576935 10.6923 2.66845 10.6923 4.83108H8.69231C8.69231 3.42023 7.76551 2.58798 7 2.58798C6.23449 2.58798 5.30769 3.42023 5.30769 4.83108H3.30769Z" fill="black"></path>
+                                   </g>
+                                   <defs>
+                                   <clipPath id="clip0_223_2286">
+                                   <rect width="14" height="14" fill="white" transform="translate(0 0.5)"></rect>
+                                   </clipPath>
+                                   </defs>
+                                   </svg>
+                           </div>
+                       </li>
+
+                   </ul>
+               </div>
+
+           
+       </div>
+
+       <!-- right col -->
+       <div class="right-col flex-col space-y-5">
+           <div class="header-icons hidden lg:block">
+               <ul class="flex space-x-4 justify-end">
+                   <li>
+                       <button class="hover:bg-black p-1">
+                           <div class="white-svg">
+                               <svg width="14" height="15" viewBox="0 0 14 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                   <g clip-path="url(#clip0_223_2246)">
+                                   <path d="M8.57367 9.57329L12 13M9.53658 6.27942C9.53658 8.64288 7.6256 10.5588 5.26829 10.5588C2.91098 10.5588 1 8.64288 1 6.27942C1 3.91596 2.91098 2 5.26829 2C7.6256 2 9.53658 3.91596 9.53658 6.27942Z" stroke="white" stroke-width="2" stroke-linecap="square"></path>
+                                   </g>
+                                   <defs>
+                                   <clipPath id="clip0_223_2246">
+                                   <rect width="14" height="14" fill="white" transform="translate(0 0.5)"></rect>
+                                   </clipPath>
+                                   </defs>
+                                   </svg>
+                           </div>
+                           <div class="hidden black-svg">
+                               <svg width="14" height="15" viewBox="0 0 14 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                   <g clip-path="url(#clip0_223_2294)">
+                                   <path d="M8.57367 9.57329L12 13M9.53658 6.27942C9.53658 8.64288 7.6256 10.5588 5.26829 10.5588C2.91098 10.5588 1 8.64288 1 6.27942C1 3.91596 2.91098 2 5.26829 2C7.6256 2 9.53658 3.91596 9.53658 6.27942Z" stroke="black" stroke-width="2" stroke-linecap="square"></path>
+                                   </g>
+                                   <defs>
+                                   <clipPath id="clip0_223_2294">
+                                   <rect width="14" height="14" fill="white" transform="translate(0 0.5)"></rect>
+                                   </clipPath>
+                                   </defs>
+                                   </svg>
+                           </div>
+                       </button>
+                   </li>
+                   <li>
+                       <button class="hover:bg-black p-1">
+                           <div class="white-svg">
+                               <svg width="14" height="15" viewBox="0 0 14 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                   <g clip-path="url(#clip0_223_2243)">
+                                   <mask id="path-1-inside-1_223_2243" fill="white">
+                                   <path d="M7 7.5C8.71822 7.5 10.1111 5.933 10.1111 4C10.1111 2.067 8.71822 0.5 7 0.5C5.28178 0.5 3.88889 2.067 3.88889 4C3.88889 5.933 5.28178 7.5 7 7.5Z"></path>
+                                   <path d="M0 14.5C0 11.0636 3.13401 8.27778 7 8.27778C10.866 8.27778 14 11.0636 14 14.5"></path>
+                                   </mask>
+                                   <path d="M8.11111 4C8.11111 5.05639 7.3987 5.5 7 5.5V9.5C10.0377 9.5 12.1111 6.8096 12.1111 4H8.11111ZM7 5.5C6.6013 5.5 5.88889 5.05639 5.88889 4H1.88889C1.88889 6.8096 3.96226 9.5 7 9.5V5.5ZM5.88889 4C5.88889 2.94361 6.6013 2.5 7 2.5V-1.5C3.96226 -1.5 1.88889 1.1904 1.88889 4H5.88889ZM7 2.5C7.3987 2.5 8.11111 2.94361 8.11111 4H12.1111C12.1111 1.1904 10.0377 -1.5 7 -1.5V2.5ZM2 14.5C2 12.3831 4.01061 10.2778 7 10.2778V6.27778C2.2574 6.27778 -2 9.74405 -2 14.5H2ZM7 10.2778C9.98939 10.2778 12 12.3831 12 14.5H16C16 9.74405 11.7426 6.27778 7 6.27778V10.2778Z" fill="white" mask="url(#path-1-inside-1_223_2243)"></path>
+                                   </g>
+                                   <defs>
+                                   <clipPath id="clip0_223_2243">
+                                   <rect width="14" height="14" fill="white" transform="translate(0 0.5)"></rect>
+                                   </clipPath>
+                                   </defs>
+                                   </svg>
+                           </div>
+                           <div class="hidden black-svg">
+                               <svg width="14" height="15" viewBox="0 0 14 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                   <g clip-path="url(#clip0_223_2291)">
+                                   <mask id="path-1-inside-1_223_2291" fill="white">
+                                   <path d="M7 7.5C8.71822 7.5 10.1111 5.933 10.1111 4C10.1111 2.067 8.71822 0.5 7 0.5C5.28178 0.5 3.88889 2.067 3.88889 4C3.88889 5.933 5.28178 7.5 7 7.5Z"></path>
+                                   <path d="M0 14.5C0 11.0636 3.13401 8.27778 7 8.27778C10.866 8.27778 14 11.0636 14 14.5"></path>
+                                   </mask>
+                                   <path d="M7 9.5C10.0377 9.5 12.1111 6.8096 12.1111 4H8.11111C8.11111 5.05639 7.3987 5.5 7 5.5V9.5ZM12.1111 4C12.1111 1.1904 10.0377 -1.5 7 -1.5V2.5C7.3987 2.5 8.11111 2.94361 8.11111 4H12.1111ZM7 -1.5C3.96226 -1.5 1.88889 1.1904 1.88889 4H5.88889C5.88889 2.94361 6.6013 2.5 7 2.5V-1.5ZM1.88889 4C1.88889 6.8096 3.96226 9.5 7 9.5V5.5C6.6013 5.5 5.88889 5.05639 5.88889 4H1.88889ZM2 14.5C2 12.3831 4.01061 10.2778 7 10.2778V6.27778C2.2574 6.27778 -2 9.74405 -2 14.5H2ZM7 10.2778C9.98939 10.2778 12 12.3831 12 14.5H16C16 9.74405 11.7426 6.27778 7 6.27778V10.2778Z" fill="black" mask="url(#path-1-inside-1_223_2291)"></path>
+                                   </g>
+                                   <defs>
+                                   <clipPath id="clip0_223_2291">
+                                   <rect width="14" height="14" fill="white" transform="translate(0 0.5)"></rect>
+                                   </clipPath>
+                                   </defs>
+                                   </svg>
+                           </div>
+                       </button>
+                   </li>
+                   <li>
+                       <button class="hover:bg-black p-1">
+                           <div class="white-svg">
+                               <svg width="14" height="15" viewBox="0 0 14 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                   <g clip-path="url(#clip0_223_2241)">
+                                   <path d="M10.1082 2.27777C10.8857 2.27777 11.6255 2.57343 12.1694 3.09064C12.7051 3.61471 12.999 4.31411 12.999 5.03543C12.999 5.75777 12.7043 6.45813 12.1671 6.98244C12.1666 6.98292 12.1661 6.98339 12.1656 6.98387L6.93878 12.0317L1.73256 6.99103C1.2422 6.46519 0.983533 5.78499 0.999748 5.09044C1.01612 4.38928 1.31172 3.71408 1.83622 3.20754C2.36177 2.69998 3.07656 2.40205 3.83362 2.38556C4.58402 2.36922 5.30666 2.63095 5.85464 3.10788L6.24566 3.48329L6.93219 4.14242L7.62445 3.48932L8.03897 3.09825L8.03898 3.09826L8.04318 3.09426C8.58741 2.57481 9.32881 2.27777 10.1082 2.27777Z" stroke="white" stroke-width="2"></path>
+                                   </g>
+                                   <defs>
+                                   <clipPath id="clip0_223_2241">
+                                   <rect width="14" height="14" fill="white" transform="translate(0 0.5)"></rect>
+                                   </clipPath>
+                                   </defs>
+                                   </svg>
+                           </div>
+                           <div class="hidden black-svg">
+                               <svg width="14" height="15" viewBox="0 0 14 15" fill="none" xmlns="http://www.w3.org/2000/svg" class="group-[.active]/btn:fill-[#000]">
+                                   <g clip-path="url(#clip0_223_2289)">
+                                     <path d="M10.1082 2.27777C10.8857 2.27777 11.6255 2.57343 12.1694 3.09064C12.7051 3.61471 12.999 4.31411 12.999 5.03543C12.999 5.75777 12.7043 6.45813 12.1671 6.98244C12.1666 6.98292 12.1661 6.98339 12.1656 6.98387L6.93878 12.0317L1.73256 6.99103C1.2422 6.46519 0.983533 5.78499 0.999748 5.09044C1.01612 4.38928 1.31172 3.71408 1.83622 3.20754C2.36177 2.69998 3.07656 2.40205 3.83362 2.38556C4.58402 2.36922 5.30666 2.63095 5.85464 3.10788L6.24566 3.48329L6.93219 4.14242L7.62445 3.48932L8.03897 3.09825L8.03898 3.09826L8.04318 3.09426C8.58741 2.57481 9.32881 2.27777 10.1082 2.27777Z" stroke="black" stroke-width="2"></path>
+                                   </g>
+                                   <defs>
+                                     <clipPath id="clip0_223_2289">
+                                       <rect width="14" height="14" fill="white" transform="translate(0 0.5)"></rect>
+                                     </clipPath>
+                                   </defs>
+                                 </svg>
+                           </div>
+                       </button>
+                   </li>
+                   <li>
+                       <button class="hover:bg-black p-1">
+                          <div class="white-svg">
+                           <svg width="14" height="15" viewBox="0 0 14 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                               <g clip-path="url(#clip0_223_2238)">
+                               <path fill-rule="evenodd" clip-rule="evenodd" d="M12 6.53271H2V12.5659H12V6.53271ZM0 4.52166V14.5769H14V4.52166H0Z" fill="white"></path>
+                               <path fill-rule="evenodd" clip-rule="evenodd" d="M3.30769 4.83105C3.30769 2.66842 4.80397 0.576904 7 0.576904C9.19603 0.576904 10.6923 2.66842 10.6923 4.83105H8.69231C8.69231 3.4202 7.76551 2.58795 7 2.58795C6.23449 2.58795 5.30769 3.4202 5.30769 4.83105H3.30769Z" fill="white"></path>
+                               </g>
+                               <defs>
+                               <clipPath id="clip0_223_2238">
+                               <rect width="14" height="14" fill="white" transform="translate(0 0.5)"></rect>
+                               </clipPath>
+                               </defs>
+                               </svg>
+                          </div>
+                          <div class="hidden black-svg">
+                           <svg width="14" height="15" viewBox="0 0 14 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                               <g clip-path="url(#clip0_223_2286)">
+                               <path fill-rule="evenodd" clip-rule="evenodd" d="M12 6.53274H2V12.5659H12V6.53274ZM0 4.52169V14.5769H14V4.52169H0Z" fill="black"></path>
+                               <path fill-rule="evenodd" clip-rule="evenodd" d="M3.30769 4.83108C3.30769 2.66845 4.80397 0.576935 7 0.576935C9.19603 0.576935 10.6923 2.66845 10.6923 4.83108H8.69231C8.69231 3.42023 7.76551 2.58798 7 2.58798C6.23449 2.58798 5.30769 3.42023 5.30769 4.83108H3.30769Z" fill="black"></path>
+                               </g>
+                               <defs>
+                               <clipPath id="clip0_223_2286">
+                               <rect width="14" height="14" fill="white" transform="translate(0 0.5)"></rect>
+                               </clipPath>
+                               </defs>
+                               </svg>
+                          </div>
+                       </button>
+                   </li>
+               </ul>
+           </div>
+           <div class="logo">
+               <a href="#" class="hidden lg:block">
+                   <svg width="503" height="44" viewBox="0 0 503 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+                   <path fill-rule="evenodd" clip-rule="evenodd" d="M95.4687 20.5841H88.026V9.71348H95.4687C98.854 9.71348 101.414 11.3198 101.414 15.3003C101.414 19.1562 98.9245 20.5841 95.4687 20.5841ZM6.93239 27.4825C8.22262 27.993 8.51718 28.0511 8.98183 29.4167L12.9189 29.7238C13.7158 29.7504 14.5075 29.8646 15.2795 30.0642C16.2129 30.3132 16.4535 30.363 17.1505 30.8943C17.5032 31.1641 17.3911 31.3634 16.9348 31.1309C14.7277 30.0061 11.3092 30.4378 8.88226 30.4295C8.56281 31.1185 8.30145 31.7743 7.67915 31.6124C6.97803 31.4381 6.55487 30.6121 6.23127 29.9853H6.20638C5.81253 30.607 5.38167 31.2044 4.91615 31.7743C4.17354 32.8659 6.16075 33.4345 6.16075 33.4345C5.21485 35.8502 5.87864 35.4559 6.09852 35.7755C6.09852 35.8087 6.15245 35.9125 6.09852 35.9498C5.24804 36.5309 6.40966 36.8132 6.33084 37.3528C6.11227 37.7417 6.04145 38.1965 6.1314 38.6335C6.22134 39.0704 6.46601 39.4602 6.82038 39.7311C7.23525 40.1462 10.0356 39.8224 10.8155 39.8681C10.9227 39.8609 11.0301 39.8756 11.1314 39.9113C11.2327 39.947 11.3256 40.0029 11.4046 40.0756C11.442 40.1296 11.4586 42.1011 11.4627 42.9811V43.3754H0V0.868408H11.3797V20.032C9.6705 20.169 8.34293 20.5094 7.91562 21.0655C7.02781 22.1904 8.28071 22.51 8.10231 23.0081C7.74138 23.6805 7.2145 26.7022 6.93239 27.4866V27.4825ZM112.433 14.5241C112.433 4.48364 105.011 0.868408 97.1282 0.868408H76.9823V43.2799H88.026V29.1427H93.6558L103.675 43.2799H116.76L105.579 27.5074C109.898 25.457 112.433 21.3478 112.433 14.5241ZM50.6177 27.4783L55.4301 12.6272H55.5504L60.2425 27.4783H50.6177ZM49.8958 0.868408L36.4044 36.9792L24.7882 20.5799L40.5904 0.868408H26.6011L11.8071 20.003C12.6119 19.9573 13.4914 19.9532 14.3875 20.003C17.5612 20.14 21.2535 20.7626 22.942 24.3487C22.942 24.3487 24.3941 28.3375 22.8674 31.463C28.2606 33.2353 29.1401 38.8055 27.7628 43.2965H45.3655L48.0414 35.6884H62.8271L65.4449 43.2965H76.9657L61.1262 0.868408H49.8958ZM24.589 38.8761L24.56 38.8179C23.9792 37.7803 22.9296 36.9211 22.7097 35.7838V35.7008V35.6427C22.69 35.1017 22.7304 34.5602 22.83 34.0281C22.9005 33.4262 22.83 33.5217 23.4191 33.5383H23.8049C24.8255 33.5632 24.9832 34.3684 25.0495 35.2235C25.1284 36.5475 25.2445 37.6599 24.6347 38.8636L24.589 38.8761ZM127.828 0.868408H116.76V43.2882H147.584V33.779H127.828V0.868408Z" fill="white"></path>
+                   <path fill-rule="evenodd" clip-rule="evenodd" d="M403.596 25.6646H424.229V17.1817H403.596V9.78105H426.197V0.983559H392.646V43.1393H426.834V33.6943H403.596V25.6646ZM359.003 43.1393H369.99V26.895H387.324V18.4028H369.99V9.78105H390.041V0.983559H359.003V43.1393ZM293.473 25.6646H314.106V17.1817H293.473V9.78105H316.065V0.983559H282.505V43.1393H316.693V33.6943H293.473V25.6646ZM259.479 27.3575H268.636V32.2974C266.261 33.7861 263.5 34.5392 260.699 34.4621C253.824 34.4621 248.834 29.2262 248.834 21.8718C248.834 15.128 253.87 9.64229 260.052 9.64229C264.672 9.64229 267.37 11.1224 270.438 13.6849L270.927 14.0919L277.395 6.2195L276.924 5.82172C272.064 1.68663 267.25 0.00297951 260.292 0.00297951C257.37 -0.0452438 254.468 0.492338 251.757 1.58403C249.045 2.67573 246.579 4.29949 244.504 6.35972C242.429 8.41995 240.787 10.875 239.674 13.5803C238.561 16.2857 238 19.1866 238.024 22.1123C238.024 34.7951 247.411 43.9996 260.357 43.9996C266.986 44.0339 273.401 41.6497 278.403 37.2928L278.615 37.1078V18.2363H259.479V27.3575ZM338.832 20.5582H331.44V9.78105H338.832C342.186 9.78105 344.737 11.3722 344.737 15.3315C344.737 19.2908 342.26 20.5859 338.832 20.5859V20.5582ZM355.686 14.5545C355.686 21.7238 352.914 25.8959 348.146 27.8016L358.994 43.1393H346.058L336.116 29.0874H331.496V43.1393H320.491V0.983559H340.468C348.322 0.983559 355.695 4.59137 355.695 14.5545H355.686ZM480.427 33.6943H475.243V10.4286H480.427C487.911 10.4286 492.041 14.1289 492.041 21.8348C492.041 30.2715 488.743 33.5093 480.427 33.6943ZM482.376 0.983559H464.266V43.1393H482.376C495.174 43.1393 503 35.7387 503 21.8626C503 8.80972 495.284 0.955808 482.376 0.955808V0.983559ZM214.97 27.4408L219.747 12.6395H219.858L224.478 27.4408H214.97ZM241.156 43.1671H229.698L227.102 35.6184H212.41L209.758 43.1671H173.454V0.983559H184.422V33.6943H202.034L214.249 0.983559H225.402L241.11 43.1393L241.156 43.1671ZM441.618 0.983559H430.595V43.1393H461.216V33.6943H441.618V0.983559Z" fill="white"></path>
+                   </svg>
+               </a>
+               <a href="#" class="hidden sm:block lg:hidden">
+                   <svg width="300" height="26" viewBox="0 0 300 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                   <path fill-rule="evenodd" clip-rule="evenodd" d="M56.9396 12.1633H52.5006V5.73981H56.9396C58.9587 5.73981 60.4853 6.68899 60.4853 9.0411C60.4853 11.3196 59.0007 12.1633 56.9396 12.1633ZM4.13463 16.2397C4.90415 16.5414 5.07983 16.5757 5.35695 17.3826L7.70511 17.5641C8.18042 17.5798 8.65256 17.6473 9.11301 17.7652C9.66973 17.9124 9.81325 17.9418 10.2289 18.2558C10.4393 18.4152 10.3724 18.5329 10.1003 18.3956C8.78392 17.7309 6.74506 17.986 5.29757 17.9811C5.10705 18.3882 4.95116 18.7757 4.58001 18.6801C4.16185 18.5771 3.90946 18.089 3.71646 17.7186H3.70162C3.46672 18.086 3.20975 18.439 2.9321 18.7757C2.48919 19.4208 3.6744 19.7568 3.6744 19.7568C3.11025 21.1843 3.50615 20.9513 3.63729 21.1401C3.63729 21.1597 3.66945 21.221 3.63729 21.2431C3.13005 21.5865 3.82286 21.7533 3.77585 22.0721C3.64549 22.3019 3.60325 22.5707 3.6569 22.8289C3.71054 23.0871 3.85647 23.3174 4.06782 23.4775C4.31526 23.7228 5.98544 23.5315 6.45061 23.5584C6.51451 23.5542 6.5786 23.5629 6.639 23.584C6.6994 23.6051 6.75484 23.6381 6.80197 23.6811C6.82424 23.713 6.83414 24.878 6.83661 25.3979V25.6309H0V0.513184H6.78712V11.8371C5.76769 11.9181 4.97591 12.1192 4.72105 12.4479C4.19154 13.1125 4.93879 13.3014 4.83239 13.5957C4.61713 13.993 4.30288 15.7786 4.13463 16.2421V16.2397ZM67.0572 8.58245C67.0572 2.64945 62.6306 0.513184 57.9293 0.513184H45.9139V25.5745H52.5006V17.2207H55.8583L61.8338 25.5745H69.6379L62.9696 16.2544C65.5454 15.0428 67.0572 12.6146 67.0572 8.58245ZM30.1895 16.2372L33.0597 7.46158H33.1315L35.9299 16.2372H30.1895ZM29.7589 0.513184L21.7124 21.8514L14.7842 12.1609L24.209 0.513184H15.8655L7.04198 11.82C7.522 11.793 8.04657 11.7905 8.58102 11.82C10.4739 11.9009 12.6761 12.2688 13.6831 14.3879C13.6831 14.3879 14.5491 16.7449 13.6386 18.5918C16.8552 19.6391 17.3798 22.9306 16.5583 25.5843H27.0569L28.6529 21.0886H37.4715L39.0328 25.5843H45.904L36.457 0.513184H29.7589ZM14.6654 22.9722L14.6481 22.9379C14.3017 22.3247 13.6757 21.817 13.5446 21.145V21.096V21.0616C13.5328 20.7419 13.5569 20.422 13.6163 20.1075C13.6584 19.7519 13.6163 19.8083 13.9677 19.8181H14.1978C14.8065 19.8328 14.9005 20.3087 14.9401 20.8139C14.9871 21.5963 15.0564 22.2536 14.6927 22.9649L14.6654 22.9722ZM76.2395 0.513184H69.6379V25.5794H88.0223V19.9604H76.2395V0.513184Z" fill="white"></path>
+                   <path fill-rule="evenodd" clip-rule="evenodd" d="M240.713 15.1655H253.019V10.1528H240.713V5.77971H254.193V0.581194H234.183V25.4914H254.573V19.9103H240.713V15.1655ZM214.117 25.4914H220.67V15.8925H231.008V10.8744H220.67V5.77971H232.629V0.581194H214.117V25.4914ZM175.034 15.1655H187.34V10.1528H175.034V5.77971H188.508V0.581194H168.492V25.4914H188.883V19.9103H175.034V15.1655ZM154.759 16.1658H160.22V19.0848C158.804 19.9645 157.157 20.4095 155.486 20.364C151.386 20.364 148.41 17.27 148.41 12.9243C148.41 8.93927 151.414 5.69772 155.1 5.69772C157.856 5.69772 159.465 6.57233 161.295 8.08652L161.587 8.32704L165.445 3.67516L165.163 3.44011C162.265 0.996644 159.394 0.00176062 155.244 0.00176062C153.501 -0.026735 151.77 0.290927 150.153 0.93602C148.536 1.58111 147.065 2.54061 145.828 3.75802C144.59 4.97543 143.61 6.42614 142.947 8.02474C142.283 9.62335 141.948 11.3375 141.962 13.0664C141.962 20.5608 147.562 25.9998 155.282 25.9998C159.236 26.02 163.062 24.6112 166.045 22.0367L166.172 21.9274V10.776H154.759V16.1658ZM202.087 12.148H197.678V5.77971H202.087C204.087 5.77971 205.608 6.71993 205.608 9.05953C205.608 11.3991 204.131 12.1644 202.087 12.1644V12.148ZM212.139 8.60036C212.139 12.8368 210.486 15.3021 207.642 16.4282L214.112 25.4914H206.396L200.467 17.188H197.711V25.4914H191.148V0.581194H203.062C207.747 0.581194 212.144 2.71308 212.144 8.60036H212.139ZM286.537 19.9103H283.445V6.16236H286.537C291.001 6.16236 293.464 8.3489 293.464 12.9024C293.464 17.8877 291.497 19.8009 286.537 19.9103ZM287.699 0.581194H276.898V25.4914H287.699C295.332 25.4914 300 21.1183 300 12.9188C300 5.20574 295.398 0.564795 287.699 0.564795V0.581194ZM128.213 16.215L131.062 7.46882H131.128L133.883 16.215H128.213ZM143.831 25.5078H136.997L135.448 21.0473H126.686L125.104 25.5078H103.452V0.581194H109.993V19.9103H120.497L127.783 0.581194H134.434L143.803 25.4914L143.831 25.5078ZM263.391 0.581194H256.816V25.4914H275.079V19.9103H263.391V0.581194Z" fill="white"></path>
+                   </svg>
+
+               </a>
+               <a href="#" class="sm:hidden">
+               <svg width="111" height="49" viewBox="0 0 111 49" fill="none" xmlns="http://www.w3.org/2000/svg">
+                   <g clip-path="url(#clip0_223_2233)">
+                   <path fill-rule="evenodd" clip-rule="evenodd" d="M77.5223 42.7694H84.4724V39.8897H77.5223V37.3773H85.1354V34.3908H73.834V48.7017H85.3501V45.4953H77.5223V42.7694ZM62.5015 48.7017H66.2022V43.1871H72.0412V40.3042H66.2022V37.3773H72.9563V34.3908H62.5015V48.7017ZM40.4279 42.7694H47.378V39.8897H40.4279V37.3773H48.0378V34.3908H36.7334V48.7017H48.2495V45.4953H40.4279V42.7694ZM28.9771 43.3441H32.0615V45.0211C31.2616 45.5265 30.3314 45.7821 29.3879 45.756C27.0723 45.756 25.3915 43.9785 25.3915 41.4819C25.3915 39.1925 27.0878 37.3302 29.1701 37.3302C30.7263 37.3302 31.6351 37.8327 32.6685 38.7026L32.8334 38.8408L35.0122 36.1683L34.8534 36.0332C33.2163 34.6295 31.5947 34.0579 29.251 34.0579C28.2667 34.0415 27.2891 34.224 26.3758 34.5946C25.4625 34.9652 24.6319 35.5165 23.9329 36.2159C23.234 36.9153 22.6807 37.7487 22.3058 38.6671C21.9309 39.5855 21.7419 40.5703 21.7499 41.5635C21.7499 45.869 24.9122 48.9937 29.2728 48.9937C31.5059 49.0054 33.6668 48.196 35.3514 46.7169L35.423 46.6541V40.2477H28.9771V43.3441ZM55.707 41.0359H53.217V37.3773H55.707C56.8368 37.3773 57.6958 37.9175 57.6958 39.2616C57.6958 40.6057 56.8617 41.0453 55.707 41.0453V41.0359ZM61.3841 38.9978C61.3841 41.4316 60.4504 42.8479 58.8443 43.4949L62.4984 48.7017H58.1409L54.7919 43.9314H53.2357V48.7017H49.5287V34.3908H56.2579C58.9035 34.3908 61.3872 35.6155 61.3872 38.9978H61.3841ZM103.402 45.4953H101.656V37.5972H103.402C105.924 37.5972 107.315 38.8533 107.315 41.4693C107.315 44.3334 106.204 45.4325 103.402 45.4953ZM104.059 34.3908H97.9587V48.7017H104.059C108.37 48.7017 111.006 46.1893 111.006 41.4787C111.006 37.0476 108.407 34.3814 104.059 34.3814V34.3908ZM13.9843 43.3724L15.5935 38.3477H15.6308L17.1871 43.3724H13.9843ZM22.8051 48.7111H18.9456L18.071 46.1485H13.1222L12.2289 48.7111H0V34.3908H3.6945V45.4953H9.62687L13.7416 34.3908H17.4983L22.7895 48.7017L22.8051 48.7111ZM90.3301 34.3908H86.6169V48.7017H96.9316V45.4953H90.3301V34.3908Z" fill="white"></path>
+                   <path fill-rule="evenodd" clip-rule="evenodd" d="M71.6549 14.9232H66.0711V6.6984H71.6549C74.1947 6.6984 76.1151 7.91374 76.1151 10.9254C76.1151 13.8429 74.2476 14.9232 71.6549 14.9232ZM5.2317 20.1425C6.19968 20.5288 6.42066 20.5728 6.76926 21.606L9.72299 21.8384C10.3209 21.8585 10.9148 21.9448 11.494 22.0959C12.1943 22.2843 12.3748 22.322 12.8977 22.724C13.1623 22.9281 13.0782 23.0788 12.7359 22.903C11.08 22.0519 8.51535 22.3785 6.69456 22.3722C6.4549 22.8936 6.25881 23.3897 5.79194 23.2673C5.26594 23.1354 4.94846 22.5104 4.70569 22.0362H4.68702C4.39153 22.5066 4.06829 22.9585 3.71904 23.3897C3.16191 24.2157 4.65278 24.6459 4.65278 24.6459C3.94314 26.4736 4.44113 26.1753 4.60609 26.4171C4.60609 26.4422 4.64655 26.5207 4.60609 26.549C3.96804 26.9887 4.83953 27.2022 4.78039 27.6105C4.61641 27.9047 4.56328 28.2488 4.63076 28.5795C4.69824 28.9101 4.8818 29.205 5.14766 29.4099C5.45891 29.724 7.55982 29.479 8.14497 29.5136C8.22534 29.5082 8.30596 29.5193 8.38194 29.5463C8.45791 29.5733 8.52766 29.6156 8.58694 29.6706C8.61495 29.7114 8.6274 31.2031 8.63052 31.8689V32.1672H0.0307617V0.00616455H8.56826V14.5055C7.28593 14.6091 6.28994 14.8666 5.96935 15.2875C5.30329 16.1385 6.24325 16.3803 6.10942 16.7572C5.83863 17.2659 5.44335 19.5522 5.2317 20.1457V20.1425ZM84.3818 10.3382C84.3818 2.74147 78.8136 0.00616455 72.8999 0.00616455H57.7857V32.095H66.0711V21.3987H70.2948L77.8114 32.095H87.6281L79.24 20.1614C82.4801 18.61 84.3818 15.501 84.3818 10.3382ZM38.006 20.1394L41.6165 8.90298H41.7067L45.2269 20.1394H38.006ZM37.4644 0.00616455L27.3427 27.3278L18.6278 14.92L30.4832 0.00616455H19.9879L8.88885 14.4835C9.49267 14.449 10.1525 14.4458 10.8248 14.4835C13.2058 14.5871 15.9759 15.0582 17.2427 17.7715C17.2427 17.7715 18.3321 20.7895 17.1867 23.1542C21.2329 24.4952 21.8927 28.7096 20.8594 32.1076H34.0656L36.0732 26.3512H47.166L49.13 32.1076H57.7733L45.8899 0.00616455H37.4644ZM18.4784 28.763L18.4566 28.719C18.0208 27.9339 17.2334 27.2839 17.0684 26.4234V26.3606V26.3166C17.0537 25.9073 17.0839 25.4976 17.1587 25.095C17.2116 24.6396 17.1587 24.7119 17.6007 24.7244H17.8901C18.6558 24.7433 18.7741 25.3525 18.8239 25.9994C18.883 27.0012 18.9701 27.8429 18.5126 28.7536L18.4784 28.763ZM95.9322 0.00616455H87.6281V32.1013H110.754V24.9066H95.9322V0.00616455Z" fill="white"></path>
+                   </g>
+                   <defs>
+                   <clipPath id="clip0_223_2233">
+                   <rect width="111" height="49" fill="white"></rect>
+                   </clipPath>
+                   </defs>
+                   </svg>
+               </a>
+               
+           </div>
+
+       </div>
+   </div>        
+
+</header>
+
+
+ <!-- hero banner -->
+  
+ <section class="hero aspect-[1440/700] relative">
+ <!-- banner img -->
+ <picture data-module="responsive-image" class="absolute  top-0 left-0 w-full h-full">
+     <source media="(min-width: 960px)" srcset="//karl.ae/cdn/shop/files/KL_SS24_LOOK_08_0217_copy_72dpi-1920-1080_1920x.jpg?v=1713446590">
+     <source media="(min-width: 768px)" srcset="//karl.ae/cdn/shop/files/KL_SS24_LOOK_08_0217_copy_72dpi-1920-1080_1060x.jpg?v=1713446590">
+     <source media="(min-width: 480px)" srcset="//karl.ae/cdn/shop/files/KL_Chalhoub_SS24_1920x1080_Duo_868x.png?v=1714745544">
+     <source srcset="//karl.ae/cdn/shop/files/KL_Chalhoub_SS24_1920x1080_Duo_520x.png?v=1714745544">
+     <img class="absolute w-full h-full block object-cover" src="//karl.ae/cdn/shop/files/KL_Chalhoub_SS24_1920x1080_Duo_520x.png?v=1714745544" width="100" height="100" loading="eager" alt="">
+
+  </picture>
+ <div>
+
+ </div>
+</section>
+
+
+
+{{'header.js' | asset_url | script_tag}}

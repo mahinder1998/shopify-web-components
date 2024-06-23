@@ -1,0 +1,38 @@
+.active-droopdown  .dropdown-menu{
+    transform: scaleY(1) !important;
+}
+.header-active{
+    background-color: #fff !important;
+}
+.header-active .menu-list .menu-toggle,
+.header-active .country-selector .text-white
+{
+    color: #000;
+}
+
+.toggle-active {
+    border-bottom: 1px solid #000;
+}
+.header-active .logo svg path{
+    fill:#000;
+}
+.header-active .header-icons .white-svg{
+    display:none;
+}
+.header-active .header-icons .black-svg{
+    display:block;
+}
+.header-active .header-icons button:hover .black-svg svg,
+.header-active .header-icons button:hover .black-svg path
+    {
+        fill:#fff
+    }
+    .hide-header{
+        transform: translateY(-170px);
+    }
+    /* mobile menu css start */
+    .menu-open,
+    .submenu-open
+    {
+        left: 0 !important;
+    }
