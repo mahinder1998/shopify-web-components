@@ -23,7 +23,7 @@ padding-bottom: {{section.settings.padding-bottom}}px;
             <div class="grid grid-cols-2 gap-4 md:grid-cols-4">
             {% for block in section.blocks %}
                 <!-- tab -->
-                    <a href="#" data-tab="tab-{{forloop.index}}" class="{%if forloop.first%} active {% endif %}  tab-item border border-gray-700 inline-block py-2 px-4
+                    <a href="javascript:void(0)" data-tab="tab-{{forloop.index}}" class="{%if forloop.first%} active {% endif %}  tab-item border border-gray-700 inline-block py-2 px-4
                     rounded-sm cursor-pointer bg-gray-700 text-white hover:bg-orange-600
                     hover:border-orange-600
                     transition-[bg,border] duration-[0.3s]
@@ -55,31 +55,7 @@ padding-bottom: {{section.settings.padding-bottom}}px;
 </section>
 
 
-<script>
-    document.addEventListener("DOMContentLoaded", ()=>{
-        const tabItem = document.querySelectorAll(".tab-item");
-        tabItem.forEach(function (item) {
-            item.addEventListener("click", () => {
-                const dataId = item.dataset.tab;
-                tabItem.forEach(function (anoItem) {
-                    anoItem.classList.remove("active");
-                });
-                item.classList.add("active");
-    
-                // Tab body
-                const tabDataItem = document.querySelectorAll(".tab-data-items");
-                tabDataItem.forEach(function (dataItem) {
-                    const dataItemId = dataItem.dataset.tab;
-                    if (dataId === dataItemId) {
-                        dataItem.classList.add("active");
-                    } else {
-                        dataItem.classList.remove("active");
-                    }
-                });
-            });
-        });
-    })
-</script>
+{{'tab-product-list.js' |  asset_url |  script_tag }}
 
 
 {% schema %}
